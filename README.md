@@ -1,8 +1,15 @@
-# pkcs11
-PKCS11 TC Working Group Unofficial Repo
+This GitHub public repository was created to provide convenient access to working copies of the PKCS #11 Cryptographic Token Interface Base Specification header files, primarily for use by implementers of the standard.  While every effort is made to ensure that this project is in sync with the TC, the TC's work as published on the Internet domain <http://oasis-open.org>" is authoritative.
 
-This GIT repo is being managed by the PKCS11 TC, it NOT the official release point for PKCS11 header files, but serves as an area for work in progress, and is used by the TC for revision management.
+For approved TC work products, see the OASIS library at:
 
-Please refer to https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=pkcs11 for the official distribution point
+http://docs.oasis-open.org/pkcs11/. 
 
-Please refer to https://www.oasis-open.org/policies-guidelines/ipr for intellectual property rights information.
+For more information on the PKCS 11 TC, see:
+
+https://www.oasis-open.org/committees/pkcs11/
+
+This project is not itself a work product of the OASIS PKCS 11 Technical Committee. 
+
+Content is made available here for the convenience of the broad PKCS 11 user community.
+
+*NOTE*: This project may transition to an OASIS open source repository affiliated with the PKCS 11 TC at some point in the future. If this happens, this project and its contents will still be available but further work here will be discontinued and readers will be directed to the active repository.
