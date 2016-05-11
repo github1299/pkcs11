@@ -1,4 +1,4 @@
-This GitHub public repository was created to provide convenient access to working copies of the PKCS #11 Cryptographic Token Interface Base Specification header files, primarily for use by implementers of the standard.  While every effort is made to ensure that this project is in sync with the TC, the TC's work as published on the Internet domain <http://oasis-open.org>" is authoritative.
+This GitHub public repository was created to provide convenient access to working copies of the PKCS #11 Cryptographic Token Interface Base Specification header files, primarily for use by implementers of the standard.  While every effort is made to ensure that this project is in sync with the TC, the TC's work as published on the Internet domain <http://oasis-open.org> is authoritative.
 
 For approved TC work products, see the OASIS library at:
 
