@@ -175,7 +175,7 @@ sub find_number
   }
   for ($i=1; $i < 32; $i++) {
      $bit = 1 << $i;
-     next if ($types_bits{$types} & $bit);
+     next if ($types_bits{$type} & $bit);
      return $bit;
   }
   die "No flags left in type $type";
