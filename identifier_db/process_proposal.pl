@@ -87,7 +87,7 @@ while (<$source>) {
 	$conflict_old_number{$name}=$number;
     	$number = find_number($type);
 	$conflict_new_number{$name}=$number;
-	if ($number == 0) {
+	if ($conflict_old_number{$name} == 0) {
      	    printf "            allocating new value is 0x%08x\n",$number;
 	} else {
      	    printf "            conflicts with $database_name{$index}, new value is 0x%08x\n",$number;
