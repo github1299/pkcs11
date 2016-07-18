@@ -262,6 +262,7 @@ CKK_KEA,0x00000005,key_types,spec
 CKK_GOST28147,0x00000032,key_types,spec
 CKK_CHACHA20,0x00000033,key_types,proposed
 CKK_POLY1305,0x00000034,key_types,proposed
+CKK_AES_XTS,0x00000035,key_types,proposed
 CKM_RSA_PKCS_KEY_PAIR_GEN,0x00000000,mechanisms,spec
 CKM_RSA_PKCS,0x00000001,mechanisms,spec
 CKM_RSA_X9_31_KEY_PAIR_GEN,0x0000000a,mechanisms,spec
@@ -388,6 +389,8 @@ CKM_JUNIPER_COUNTER,0x00001063,mechanisms,spec
 CKM_JUNIPER_SHUFFLE,0x00001064,mechanisms,spec
 CKM_JUNIPER_WRAP,0x00001065,mechanisms,spec
 CKM_FASTHASH,0x00001070,mechanisms,spec
+CKM_AES_XTS,0x00001071,mechanisms,proposed
+CKM_AES_XTS_KEY_GEN,0x00001072,mechanisms,proposed
 CKM_AES_KEY_GEN,0x00001080,mechanisms,spec
 CKM_AES_ECB,0x00001081,mechanisms,spec
 CKM_AES_CBC,0x00001082,mechanisms,spec
