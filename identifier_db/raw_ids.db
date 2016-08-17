@@ -264,8 +264,8 @@ CKK_GOSTR3410,0x00000030,key_types,spec
 CKK_GOSTR3411,0x00000031,key_types,spec
 CKK_KEA,0x00000005,key_types,spec
 CKK_GOST28147,0x00000032,key_types,spec
-CKK_CHACHA20,0x00000033,key_types,proposed
-CKK_POLY1305,0x00000034,key_types,proposed
+CKK_CHACHA20,0x00000033,key_types,approved
+CKK_POLY1305,0x00000034,key_types,approved
 CKK_AES_XTS,0x00000035,key_types,proposed
 CKK_SHA3_224_HMAC,0x00000036,key_types,proposed
 CKK_SHA3_256_HMAC,0x00000037,key_types,proposed
@@ -446,10 +446,10 @@ CKM_GOST28147_ECB,0x00001221,mechanisms,spec
 CKM_GOST28147,0x00001222,mechanisms,spec
 CKM_GOST28147_MAC,0x00001223,mechanisms,spec
 CKM_GOST28147_KEY_WRAP,0x00001224,mechanisms,spec
-CKM_CHACHA20_KEY_GEN,0x00001225,mechanisms,proposed
-CKM_CHACHA20,0x00001226,mechanisms,proposed
-CKM_POLY1305_KEY_GEN,0x00001227,mechanisms,proposed
-CKM_POLY1305,0x00001228,mechanisms,proposed
+CKM_CHACHA20_KEY_GEN,0x00001225,mechanisms,approved
+CKM_CHACHA20,0x00001226,mechanisms,approved
+CKM_POLY1305_KEY_GEN,0x00001227,mechanisms,approved
+CKM_POLY1305,0x00001228,mechanisms,approved
 CKM_X9_42_DH_KEY_PAIR_GEN,0x00000030,mechanisms,spec
 CKM_X9_42_DH_DERIVE,0x00000031,mechanisms,spec
 CKM_MD5_RSA_PKCS,0x00000005,mechanisms,spec
