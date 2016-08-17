@@ -61,9 +61,9 @@ while (<$source>) {
     }
     @db = split(" ");
     if ($db[0] ne "#define") { # lines without a #define are a new type 
-	my $proposed_type=lc $db[0];
-	$proosed_type =~ s/ /_/g;
-	$proosed_type =~ s/:$//;
+	my $proposed_type=lc $_
+	$proposed_type =~ s/ /_/g;
+	$proposed_type =~ s/:$//;
 	if (!exists $types{$proposed_type} ) {
 	    printf "unknown type: $db[0]\n";
 	    print_types();
@@ -121,8 +121,8 @@ for $type (split(" ",$source_type_order)) {
       }
 }
 
-if (%conflict_name eq () ) {
-    printf $DEST "\nThis represents the same values from your original proposal:\n";
+if (keys %conflict_name eq () ) {
+    printf $DEST "\nThis represents the same values from your original proposal.\n";
 } else {
     printf $DEST "\nThis represents the following changes to your original proposal:\n";
     for $type (keys %conflict_name) {
@@ -176,6 +176,7 @@ sub find_number
   for ($i=1; $i < 32; $i++) {
      $bit = 1 << $i;
      next if ($types_bits{$type} & $bit);
+     $types_bits{$type} |= $bit;
      return $bit;
   }
   die "No flags left in type $type";
