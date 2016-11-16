@@ -61,7 +61,7 @@ while (<$source>) {
     }
     @db = split(" ");
     if ($db[0] ne "#define") { # lines without a #define are a new type 
-	my $proposed_type=lc $_
+	my $proposed_type=lc $_;
 	$proposed_type =~ s/ /_/g;
 	$proposed_type =~ s/:$//;
 	if (!exists $types{$proposed_type} ) {
