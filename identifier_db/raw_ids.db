@@ -76,6 +76,7 @@ CKA_COPYABLE,0x00000171,attributes,spec
 CKA_DESTROYABLE,0x00000172,attributes,spec
 CKA_EC_PARAMS,0x00000180,attributes,spec
 CKA_EC_POINT,0x00000181,attributes,spec
+CKA_UNIQUE_ID,0x00000004,attributes,proposed
 CKA_SECONDARY_AUTH,0x00000200,attributes,spec
 CKA_AUTH_PIN_FLAGS,0x00000201,attributes,spec
 CKA_ALWAYS_AUTHENTICATE,0x00000202,attributes,spec
