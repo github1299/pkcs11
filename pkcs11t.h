@@ -369,10 +369,12 @@ typedef CK_ULONG          CK_KEY_TYPE;
 #define CKK_CAMELLIA            0x00000025UL
 #define CKK_ARIA                0x00000026UL
 
-#define CKK_MD5_HMAC            0x00000027UL
+/* the following definitions were added in the 2.3 header file,
+ * but never defined in the spec. */
+/*#define CKK_MD5_HMAC            0x00000027UL*/
+/*#define CKK_RIPEMD128_HMAC      0x00000029UL*/
+/*#define CKK_RIPEMD160_HMAC      0x0000002AUL */
 #define CKK_SHA_1_HMAC          0x00000028UL
-#define CKK_RIPEMD128_HMAC      0x00000029UL
-#define CKK_RIPEMD160_HMAC      0x0000002AUL
 #define CKK_SHA256_HMAC         0x0000002BUL
 #define CKK_SHA384_HMAC         0x0000002CUL
 #define CKK_SHA512_HMAC         0x0000002DUL
